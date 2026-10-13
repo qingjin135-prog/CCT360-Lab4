@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's for Dinner?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main>
+<header>
+    <h1>What to have for dinner?</h1>
+    <p>Choose your ingredient and cooking method!</p>
+</header>
+
+<section id="ingredient-screen">
+        <h2>Choose your ingredient</h2>
+    <div class="ingredient-options">
+        <button class="ingredient-card" data-ingredient="fish">
+        <img src="images/fish.png" alt="Fresh fish">
+        <span>Fish</span>
+    </button>
+
+        <button class="ingredient-card" data-ingredient="chicken">
+        <img src="images/chicken.png" alt="Raw chicken">
+        <span>Chicken</span>
+        </button>
+
+    <button class="ingredient-card" data-ingredient="beef">
+        <img src="images/beef.png" alt="Raw beef steak">
+        <span>Beef</span>
+    </button>
+</div>
+</section>
+<section id="method-screen">
+
+        <h2>How would you like to cook it?</h2>
+        <p id="chosen-ingredient"></p>
+        <div id="method-options">
+        </div>
+
+</section>
+
+<section id="result-screen">
+    <h2>Dinner is ready!</h2>
+        <img id="result-image"  alt="Finished dish">
+        <h3 id="result-title"></h3>
+        <p id="result-text"></p>
+
+<button id="restart-button"> Cook Again</button> s
+</section>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+ 
